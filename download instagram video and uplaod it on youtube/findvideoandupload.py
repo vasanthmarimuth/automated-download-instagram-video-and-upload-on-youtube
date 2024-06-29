@@ -103,8 +103,8 @@ def upload_video(video_file, title, description):
         return False
 
 # Set Instagram profile and the Nth video to download
-profile_name = "channel_name"
-nth_video = "video_number"
+profile_name = "channel_name" #update it with the Instagram channel name that you download the video
+nth_video = video number #update with the nth video that you want to dwonload
 
 # Download Nth video from Instagram
 download_nth_instagram_video(profile_name, nth_video)
